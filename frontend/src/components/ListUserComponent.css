@@ -1,0 +1,54 @@
+.btn-primary,
+.btn-info,
+.btn-danger {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: rgb(85, 85, 85) !important;
+  border-color: rgb(85, 85, 85) !important; 
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Atur padding untuk table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Atur warna header table */
+.table thead th {
+  background-color: rgb(85, 85, 85);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }  
+
+.table td {
+    text-align: center;
+  }
+/* Atur warna latar baris ganjil */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between; /* Membuat tombol sejajar dengan ruang di antara mereka */
+}
+
+/* Gaya untuk tombol */
+.action-buttons button {
+  margin-right: 1px; /* Memberikan jarak antara tombol */
+}
+
+.body{
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}

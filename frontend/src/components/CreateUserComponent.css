@@ -1,0 +1,31 @@
+.container {
+    margin-top: 20px;
+  }
+  
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.card-body {
+    padding: 20px;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.btn {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.body{
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
